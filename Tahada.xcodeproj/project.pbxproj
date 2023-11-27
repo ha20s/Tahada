@@ -11,6 +11,9 @@
 		0CA0B33D2B0DFAC9006945EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0B33C2B0DFAC9006945EA /* ContentView.swift */; };
 		0CA0B33F2B0DFACB006945EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0B33E2B0DFACB006945EA /* Assets.xcassets */; };
 		0CA0B3422B0DFACB006945EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0B3412B0DFACB006945EA /* Preview Assets.xcassets */; };
+		0CA0B3492B0E0088006945EA /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0B3482B0E0088006945EA /* CommunityView.swift */; };
+		0CA0B34B2B0F3A0F006945EA /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0B34A2B0F3A0F006945EA /* ChatModel.swift */; };
+		0CA0B3682B1346C5006945EA /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0B3672B1346C5006945EA /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		0CA0B33C2B0DFAC9006945EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CA0B33E2B0DFACB006945EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA0B3412B0DFACB006945EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CA0B3482B0E0088006945EA /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		0CA0B34A2B0F3A0F006945EA /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		0CA0B3672B1346C5006945EA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				0CA0B33A2B0DFAC9006945EA /* TahadaApp.swift */,
 				0CA0B33C2B0DFAC9006945EA /* ContentView.swift */,
+				0CA0B3482B0E0088006945EA /* CommunityView.swift */,
+				0CA0B3672B1346C5006945EA /* ChatView.swift */,
+				0CA0B34A2B0F3A0F006945EA /* ChatModel.swift */,
 				0CA0B33E2B0DFACB006945EA /* Assets.xcassets */,
 				0CA0B3402B0DFACB006945EA /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				0CA0B33D2B0DFAC9006945EA /* ContentView.swift in Sources */,
 				0CA0B33B2B0DFAC9006945EA /* TahadaApp.swift in Sources */,
+				0CA0B3682B1346C5006945EA /* ChatView.swift in Sources */,
+				0CA0B3492B0E0088006945EA /* CommunityView.swift in Sources */,
+				0CA0B34B2B0F3A0F006945EA /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tahada/Preview Content\"";
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tahada/Preview Content\"";
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
